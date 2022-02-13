@@ -1,0 +1,11 @@
+package com.devsuperior.myfirstproject.repositories;
+
+import java.util.Locale.Category;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CategoryRepositor extends JpaRepository<Category, Long>{
+
+}

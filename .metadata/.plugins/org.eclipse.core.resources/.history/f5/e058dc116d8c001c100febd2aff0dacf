@@ -1,0 +1,13 @@
+package com.devsuperior.myfirstproject.repositories;
+
+import org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension;
+import org.springframework.stereotype.Repository;
+
+@Repository   /*Injecao de dependencia - funciona com o @Autowired*/
+public class CategoryRepository extends JpaRepositoryExtension<Category, Long>{
+	
+
+	
+	
+
+}
